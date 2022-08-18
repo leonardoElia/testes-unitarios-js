@@ -42,4 +42,11 @@ const productDetails = (firstProduct, secondProduct) => [
   },
 ];
 
+let array = productDetails('miojo', 'morango');
+let texto1 = array[0].details.productId;
+let quebrado = texto1.split('');
+console.log(quebrado[quebrado.length - 1]);
+
+
+
 module.exports = productDetails;
