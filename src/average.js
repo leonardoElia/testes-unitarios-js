@@ -12,23 +12,23 @@
 */
 
 const average = (array) => {
-  if(array.length === 0){
+  if (array.length === 0) {
       return undefined;
   }
   
-  let media =0;
-  let soma =0;
+  let media = 0;
+  let soma = 0;
   let mediaArredondada;
-  for (let index =0; index < array.length; index +=1) {
-    if(typeof array[index] == 'number'){
+  for (let index = 0; index < array.length; index += 1) {
+    if (typeof array[index] === 'number') {
       soma += array[index];
-    }else{
+    } else {
       return undefined;
     }
 }
    media = soma / array.length;
    
-    mediaArredondada = Math.round(media);
+  mediaArredondada = Math.round(media);
    
   return mediaArredondada;
 };

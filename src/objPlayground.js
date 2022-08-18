@@ -39,24 +39,22 @@ const calculator = (number1, number2) => {
     sum: number1 + number2,
     mult: number1 * number2,
     div: Math.floor(number1 / number2),
-    sub: number1 - number2
-  }
+    sub: number1 - number2,
+  };
 
   return calculadora;
 };
 
 const arrayGenerator = (type, object) => {
-  if(type === 'keys'){
+  if (type === 'keys') {
     let arrayChaves = Object.keys(object);
     return arrayChaves;
-
-  }else if(type === 'values'){
+  } if (type === 'values') {
       let arrayValores = Object.values(object);
       return arrayValores;
-  }else{
+  } 
      let arrayEntries = Object.entries(object);
      return arrayEntries;
-  }
 };
 
 module.exports = { calculator, arrayGenerator };

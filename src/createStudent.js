@@ -18,10 +18,10 @@
 const createStudent = (nome) => {
   const objeto = {
     name: nome,
-    feedback: function elogio(){
-      return 'Eita pessoa boa!'
-    }
-  }
+    feedback: function elogio() {
+      return 'Eita pessoa boa!';
+    },
+  };
 
   return objeto;
 };
