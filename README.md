@@ -20,8 +20,6 @@ e consolidar minha lógica de programação.
 
 ## tecnologias utilizadas
 * javascript
-* html
-* css
 * jest
 
 ## como rodar o projeto localmente
