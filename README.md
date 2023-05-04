@@ -25,6 +25,6 @@ e consolidar minha lógica de programação.
 * jest
 
 ## como rodar o projeto localmente
-1. faça o clone desde repositorio 1
+1. faça o clone desde repositorio 
 2. entre na pasta do projeto e execute o comando npm install
 3. depois disso execute o comando npm test para realizar os testes
